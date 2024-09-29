@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HealthConnect</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to HealthConnect</h2>
+            <p>Your comprehensive health management app designed to empower you with affordable healthcare options.</p>
+            <a href="download.html" class="cta">Download the App</a>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>User Medical History</li>
+                <li>Symptom Analysis</li>
+                <li>Doctor Connection</li>
+                <li>Appointment Scheduling</li>
+                <li>Emergency Assistance</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to bridging the healthcare gap for economically disadvantaged individuals.</p>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Explore educational materials and community support.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HealthConnect. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
